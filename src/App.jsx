@@ -11,15 +11,15 @@ import {
 import AdminLayout from "./layouts/AdminLayout";
 
 // Pages
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import ServiceProviders from "./pages/ServiceProviders";
-import Customers from "./pages/Customers";
-import Bookings from "./pages/Bookings";
-import Categories from "./pages/Categories";
-import Payments from "./pages/Payments";
-import Reviews from "./pages/Reviews";
-import Settings from "./pages/Settings";
+import Login from "./pages/Login.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import ServiceProviders from "./pages/ServiceProviders.jsx";
+import Customers from "./pages/Customers.jsx";
+import Bookings from "./pages/Bookings.jsx";
+import Categories from "./pages/Categories.jsx";
+import Payments from "./pages/Payments.jsx";
+import Reviews from "./pages/Reviews.jsx";
+import Settings from "./pages/Settings.jsx";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
