@@ -2,7 +2,7 @@
   "name": "quickfixadmin",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://anasolcampusconnect.github.io/QuickFix-Admin",
+  "homepage": "https://anasolcampusconnect.github.io/QuickFix-Admin/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.3.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^4.2.1",
     "lucide-react": "^1.16.0",
@@ -23,6 +22,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
@@ -33,7 +33,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "postcss": "^8.5.15",
-    "tailwindcss": "^3.4.19",
+    "tailwindcss": "^4.3.0",
     "vite": "^8.0.12"
   }
 }
