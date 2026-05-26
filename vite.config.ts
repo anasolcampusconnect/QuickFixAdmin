@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
   ],
 
-  base: '/QuickFix-Admin/',
+ base: '/QuickFixAdmin/'
 })
