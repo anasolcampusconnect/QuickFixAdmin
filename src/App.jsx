@@ -22,7 +22,9 @@ import Reviews from "./Pages/Reviews.jsx";
 import Settings from "./Pages/Settings.jsx";
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(
+  localStorage.getItem("isAuthenticated") === "true"
+);
 
   return (
     <Router>

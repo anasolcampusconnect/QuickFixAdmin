@@ -53,9 +53,14 @@ const Login = ({ setIsAuthenticated }) => {
     }
 
     // Checking credentials
-    if (email === "admin@gmail.com" && password === "admin123") {
-      if (setIsAuthenticated) setIsAuthenticated(true);
-      navigate("/dashboard");
+   if (email === "admin@gmail.com" && password === "admin123") {
+  localStorage.setItem("isAuthenticated", "true");
+
+  if (setIsAuthenticated) {
+    setIsAuthenticated(true);
+  }
+
+  navigate("/dashboard");
     } else {
       alert("Invalid Credentials! Try admin@gmail.com / admin123");
     }
